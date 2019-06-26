@@ -66,6 +66,17 @@ img {
     transform: translate(-50%, -50%);
 }
 
+.showcase-content {
+    position: relative;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
 
 /* Buttons */
 
