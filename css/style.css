@@ -55,7 +55,7 @@ img {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     box-shadow: inset 100px 100px 250px #000000, inset -100px -100px 250px #000000;
 }
 
@@ -355,5 +355,32 @@ img {
 
     .text-md {
         font-size: 1rem;
+    }
+}
+
+@media(max-width: 700px){
+    .showcase::after {
+        box-shadow: inset 80px 80px 250px #000000, inset -80px -80px 250px #000000;
+    }
+
+    .tabs {
+        margin-top: 8rem;
+    }
+    .showcase-content .btn .btn-xl {
+        margin-bottom: 0;
+    }
+    
+    #tab-1-content .tab-1-content-inner {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    #tab-2-content .tab-2-content-top {
+        display: block;
+        text-align: center;
+    }
+
+    #tab-2-content .tab-2-content-bottom {
+        grid-template-columns: 1fr;
     }
 }
