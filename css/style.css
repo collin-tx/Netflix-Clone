@@ -329,6 +329,10 @@ footer a {
     text-transform: uppercase;
 }
 
+.btn-icon {
+    margin-left: 1rem;
+}
+
 
 /* Media Queries */
 
